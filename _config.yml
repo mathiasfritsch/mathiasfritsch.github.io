@@ -1,1 +1,22 @@
-theme: jekyll-theme-cayman
+theme: minima
+title: Mathias Fritsch
+description: Notes on .NET, Angular, cloud, and software architecture
+url: "https://mathiasfritsch.github.io"
+author:
+  name: Mathias Fritsch
+  email: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Plugins (GitHub Pages supports these natively)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/mathiasfritsch" }
